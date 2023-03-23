@@ -7,13 +7,14 @@ Chiedi all’utente la sua email,
 controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull’esito del controllo.
 ## Step da seguire: 
-1. Inizializzazione di una variabile booleana con il valore false.
-2. Avvio di un ciclo che scorre gli elementi di un array.
-3. Verifica se un determinato valore corrisponde all'elemento corrente dell'array.
-4. Se il valore corrisponde all'elemento corrente dell'array, impostare la variabile booleana a true.
-5. Dopo aver completato il ciclo, controlla il valore della variabile booleana.
-6. Se il valore è true, eseguire un'azione specifica.
-7. Se il valore è false, eseguire un'altra azione specifica.
+1. Si richiede all'utente di inserire un input tramite una funzione appropriata (come prompt()).
+2. Si crea un array contenente una serie di valori validi utili per la verifica dell'input.
+3. Si seleziona un elemento HTML utilizzando un metodo come document.getElementById().
+4. Si assegna un valore predefinito alla proprietà innerHTML dell'elemento selezionato.
+5. Si esegue un ciclo for per scorrere l'array contenente i valori validi.
+6. Per ogni valore nell'array si verifica se l'input dell'utente corrisponde.
+7. Se l'input corrisponde ad uno dei valori validi, si assegna un valore appropriato ad una variabile.
+8. Si aggiorna la proprietà innerHTML dell'elemento selezionato con il valore della variabile, se l'input è valido. Altrimenti, la proprietà rimane invariata.
 
 
 ## Consegna gioco dei Dadi
